@@ -17,7 +17,6 @@ def key_for_min_value(name_hash)
       else
         i + 1
       end
-      name_hash.find(min_key)
     end
   else
     return nil
