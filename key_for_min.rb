@@ -12,10 +12,10 @@ def key_for_min_value(name_hash)
         min_key = value
       else
       end
+      name_hash.find(min_key)
     end
   else
     nil
   end
-
-
+  
 end
