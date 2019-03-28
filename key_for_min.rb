@@ -5,7 +5,6 @@ def key_for_min_value(name_hash)
   min_key = 0
   if name_hash.length != 0
     values = name_hash.collect do |key, value|
-      puts value
       value
     end
     puts values
