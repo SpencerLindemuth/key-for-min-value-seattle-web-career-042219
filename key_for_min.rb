@@ -5,8 +5,8 @@ def key_for_min_value(name_hash)
   min_key = 0
   if name_hash.length != 0
     values = name_hash.collect do |key, value|
-      puts values
-      values
+      puts value
+      value
     end
     values.each_with_index do |value, i|
       if ((values <=> values[i + 1]) == -1) && (value < min_key)
