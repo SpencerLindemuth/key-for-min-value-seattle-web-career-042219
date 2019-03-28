@@ -8,8 +8,9 @@ def key_for_min_value(name_hash)
       puts value
       value
     end
-    values.each_with_index do |value, i|
-      if ((value <=> values[i + 1]) == -1) && (value < min_key)
+    i = 0
+    while i < values.length do
+      if ((values[i] <=> values[i + 1]) == -1) && (value < min_key)
         puts "made it"
         min_key = value
       else
