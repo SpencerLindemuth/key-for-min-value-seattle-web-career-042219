@@ -9,7 +9,6 @@ def key_for_min_value(name_hash)
       value
     end
     values.each_with_index do |value, i|
-      puts "uno"
       if ((value <=> values[i + 1]) == -1) && (value < min_key)
         puts "made it"
         min_key = value
@@ -18,7 +17,7 @@ def key_for_min_value(name_hash)
       name_hash.find(min_key)
     end
   else
-    nil
+    return nil
   end
 
 end
