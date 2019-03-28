@@ -13,9 +13,9 @@ def key_for_min_value(name_hash)
       if ((values[i] <=> values[i + 1]) == -1) && (value < min_key)
         puts "made it"
         min_key = value
-        i + 1
+        i += 1
       else
-        i + 1
+        i += 1
       end
     end
   else
