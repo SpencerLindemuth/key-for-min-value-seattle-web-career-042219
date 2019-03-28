@@ -3,22 +3,28 @@
 
 def key_for_min_value(name_hash)
   min_key = 0
+  
   if name_hash.length != 0
-    values = name_hash.collect do |key, value|
+    values = name_hash.map do |key, value|
       value
     end
+    
     puts values
     i = 0
     j = 1
+    
     while j < values.length + 1 do
+      
       if values[i] < values[j]
         puts "made it"
         min_key = value
         i += 1
         j += 1
+        
       else
         i += 1
         j += 1
+        
       end
     end
   else
