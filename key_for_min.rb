@@ -8,6 +8,7 @@ def key_for_min_value(name_hash)
       puts value
       value
     end
+    puts values
     i = 0
     j = 1
     while i < values.length do
