@@ -17,7 +17,7 @@ def key_for_min_value(name_hash)
 
       if value_array[i]
         puts "made it"
-        min_key = values[i]
+        min_key = value_array[i]
         i += 1
         j += 1
 
