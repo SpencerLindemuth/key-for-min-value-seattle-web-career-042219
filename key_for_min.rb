@@ -15,8 +15,10 @@ def key_for_min_value(name_hash)
         puts "made it"
         min_key = value
         i += 1
+        j += 1
       else
         i += 1
+        j += 1
       end
     end
   else
