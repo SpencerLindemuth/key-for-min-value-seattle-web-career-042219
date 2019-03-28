@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
       value
     end
 
-    puts values
+    puts value_array
     i = 0
     j = 1
 
