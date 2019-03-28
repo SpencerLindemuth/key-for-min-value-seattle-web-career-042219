@@ -3,10 +3,11 @@
 
 def key_for_min_value(name_hash)
   min_key = 0
+  value_array = []
 
   if name_hash.length != 0
-    value_array = name_hash.map do |key, value|
-      value
+    name_hash.each do |key, value|
+      value_array << value
     end
 
     puts value_array
