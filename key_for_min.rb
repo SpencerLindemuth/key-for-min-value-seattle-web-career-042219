@@ -11,7 +11,7 @@ def key_for_min_value(name_hash)
     i = 0
     j = 1
     while j < values.length + 1 do
-      if (values[i] < values[j])
+      if values[i] < values[j]
         puts "made it"
         min_key = value
         i += 1
