@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
   min_key = 0
 
   if name_hash.length != 0
-    values = name_hash.map do |key, value|
+    value_array = name_hash.map do |key, value|
       value
     end
 
